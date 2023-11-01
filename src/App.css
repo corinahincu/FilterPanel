@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+/* Cart.css */
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+}
+
+.cart-item-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+button {
+  padding: 25px;
+  font-size: 16px;
+  margin: 15px;
+}
+
+
+
