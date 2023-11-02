@@ -9,6 +9,9 @@ export function Filter() {
     <div className="filter-items">
       {filterOptions.map(({label,count},index) => (
         <div key={index}>
+          <label>
+            <input type="checkbox" />
+          </label>
           <span >{label}</span>
           <span >({count})</span>
         </div>
